@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( "#tabs" ).tabs();
+    } );
+    </script>
+    
+    <script>
+        $(document).ready(function(){
+        $("button").click(function(){
+            $("button").removeClass("buttonClicked");
+            $(this).addClass("buttonClicked");
+        });
+      });</script>
+
+</head>
+<body>
+    
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+    <header>
+        <div class="titulo">
+            <h1>
+                Agenda
+            </h1>
+        </div>
+        <div class="menu">
+            <span>MENU</span> 
+         </div>
+    </header>
+    
+
+    <div id="tabs">
+        <ul>
+            <li>
+                <a href="#tabs-1">
+                    <button class="button" id="button1">08/MAI</button>
+                </a>
+            </li>
+            <li>
+                <a href="#tabs-2">
+                    <button class="button" id="button2">09/MAI</button>
+                </a>
+            </li>
+        </ul>
+        <div class="palestrantes">
+            <div id="tabs-1">
+                <div class="bloco-palestrante">
+                    <div class="imagem1">
+                        <img src="https://mk0jutuyatej3e9ajdvw.kinstacdn.com/wp-content/uploads/2019/03/Maryana_Rodrigues_150-min.png" alt=""/>
+                    </div>
+                    <div class="descricao">
+                        <h3>Maryana Rodrigues</h3>
+                        <p>Fundadora do Adultando</p>
+                        <span>Abertura do evento</span>
+                    </div>
+                </div>
+                <div class="bloco-palestrante">
+                    <div class="imagem2">
+                        <img src="https://mk0jutuyatej3e9ajdvw.kinstacdn.com/wp-content/uploads/2019/04/Sergio_Fajermanpb-min.png " alt=""/>
+                    </div>
+                    <div class="descricao">
+                        <header>
+                            <h3>Sergio Fajerman</h3>
+                            <p>HR Executive Director no Itaú</p>
+                            <span>Transformando o RH de uma gigante: erros, aprendizados e insights da transformação do Itaú</span>
+                        </header>
+                    </div>
+                </div>
+            </div>
+            <div id="tabs-2">
+                <div class="bloco-palestrante">
+                    <div class="imagem3">
+                        <img src="https://mk0jutuyatej3e9ajdvw.kinstacdn.com/wp-content/uploads/2019/03/Arthur_Diniz.png" alt=""/>
+                    </div>
+                    <div class="descricao">
+                        <header>
+                            <h3>Arthur Diniz</h3>
+                            <p>CEO na Crescimentum</p>
+                            <span>Como exponencializar resultados através da jornada do funcionário - estratégias do Vale do Silício</span>
+                        </header>
+                    </div>
+                </div>
+                <div class="bloco-palestrante">
+                    <div class="imagem4">
+                        <img src="https://mk0jutuyatej3e9ajdvw.kinstacdn.com/wp-content/uploads/2019/03/Sandra_Gioffipb-min.png" alt=""/>
+                    </div>
+                    <div class="descricao">
+                        <header>
+                            <h3>Sandra Gioffi</h3>
+                            <p>Managing Director na Accenture</p>
+                            <span>Evitando a paralisia do RH: como fazer mudanças ágeis e estar preparado para uma nova era</span>
+                        </header>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="ingresso">
+            <h1 display>Garanta seu ingresso > > ></h1>
+        </div>
+    </footer>
+    
+
+
+    
+    
+</body>
+</html>
+

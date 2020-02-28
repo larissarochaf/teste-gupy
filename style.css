@@ -1,0 +1,218 @@
+/***** Pré configurado *****/
+
+@font-face {
+  font-family: 'DINPro-light';
+  src: url('https://cdn2.hubspot.net/hubfs/3299491/assets/fonts/DINPro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src: url('https://cdn2.hubspot.net/hubfs/3299491/assets/fonts/DINPro.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro-regular';
+  src: url('https://cdn2.hubspot.net/hubfs/3299491/assets/fonts/DINPro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro-bold';
+  src: url('https://cdn2.hubspot.net/hubfs/3299491/assets/fonts/DINPro-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro-black';
+  src: url('https://cdn2.hubspot.net/hubfs/3299491/assets/fonts/DINPro-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  font-family: 'DINPro',Arial,Helvetica,sans-serif;
+  background: #3f1a31;
+  color: #ffffff;
+}
+
+.main-body {
+  background: #3f1a31;
+}
+
+.main-body .padding {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+#masthead,.site-footer {
+  display: none !important;
+}
+
+/******** Código extra a seguir ********/
+
+header div.titulo {
+  background-color: #724895;
+  margin-left: 5%;
+}
+
+header h1 {
+  font-family: 'DINPro-bold';
+  padding-left: .8em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.menu {
+  background-color: #F6911E;
+  color: #ffffff;
+  transform: rotate(90deg);
+  display: block;
+  position: fixed;
+  top: 47px;
+  right: -48px;
+  font-weight: 900;
+  font-size: 28px;
+  font-family: 'DINPro-black';
+  line-height: 45px;
+  text-align: center;
+  height: 45px;
+  width: 140px;
+  z-index: 10;
+  text-transform: uppercase;
+  border-radius: 0 0 11px 0; 
+  cursor: pointer;
+  letter-spacing: 3px;
+}
+
+div#tabs {
+  margin-top: 5em;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.button {
+  height: 80px;
+  width: 150px;
+  font-family: 'DINPro-Black';
+  font-size: 29px;
+  color: #fff;
+  }
+
+.button#button1 {
+  margin-left: -1em;
+  margin-right: 1em;
+  background-color: #8CA6A3;
+  box-shadow: 5px -5px 0 0 #586D73;
+}
+
+.button#button2 {
+  background-color: #B5B5B5;
+  box-shadow: 5px -5px 0 0 #715968;
+}
+
+.buttonClicked {
+  background-color: #EF3E60 !important;
+  color: #fff;
+}
+.palestrantes {
+  display: flex;
+  flex-direction: column;
+}
+
+.bloco-palestrante {
+  display: flex;
+  margin-left: .7em;
+  flex-direction: row;
+  margin-bottom: 3em;
+  flex-basis: 1;
+}
+
+.bloco-palestrante div.imagem1 {
+  margin-top: 1.5em;
+  width: 150px;
+  height: auto;
+  background-color: #f04861;
+  box-shadow: 8px -5px 0 0 #953B5E;
+}
+
+.bloco-palestrante div.imagem2 {
+  margin-top: 1.5em;
+  width: 150px;
+  height: auto;
+  background-color:  #b183f5;
+  box-shadow: 8px -5px 0 #684D72;
+}
+
+.bloco-palestrante div.imagem3 {
+  margin-top: 1.5em;
+  width: 150px;
+  height: auto;
+  background-color: #30c3f6;
+  box-shadow: 8px -5px 0 #19695F;
+}
+
+.bloco-palestrante div.imagem4 {
+  margin-top: 1.5em;
+  width: 150px;
+  height: auto;
+  background-color: #f69349;
+  box-shadow: 8px -5px 0 #914E31;
+}
+.bloco-palestrante div.descricao {
+  margin-left: 2em;
+}
+
+.bloco-palestrante h3 {
+  font-size: 22px;
+  font-family: 'DINPro-black';
+  width: min-intrinsic;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  display: table-caption;
+  display: -ms-grid;
+  -ms-grid-columns: min-content;
+  margin-bottom: -1px;
+}
+
+.bloco-palestrante p {
+  font-size: 14px;
+  font-family: 'DINPro-light';
+}
+
+.bloco-palestrante span {
+  font-size: 14px;
+  font-family: 'DINPro-light';
+  color: #2FC3F6;
+}
+
+.image {
+  background-color: #EF3E60;
+}
+
+.ingresso {
+  background-color: #EF3E60;
+  color: #ffffff;
+  height: 79px;
+  width: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 12px;
+  font-family: 'DINPro-black';
+  text-align: center;
+  position: absolute;
+  margin-left: 0em;
+  margin-right: 0em;
+  left: 0;
+}
